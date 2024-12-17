@@ -16,7 +16,6 @@ namespace AniversariantesSubti.Controllers
             _repository = repository;
         }
 
-
         [HttpGet]
         public ActionResult<IEnumerable<Aniversariantes>> ListarTodosAniversariantes()
         {
@@ -28,15 +27,24 @@ namespace AniversariantesSubti.Controllers
         [HttpGet("ObterPorNome")]
         public ActionResult<Aniversariantes> ObterPorNome([FromQuery] string nome)
         {
-            var Aniversariante = _repository.ObterPorNome(nome);
-            if (Aniversariante == null)
+            var Aniversariantes = _repository.ObterPorNome(nome);
+            if (Aniversariantes == null)
             {
                 return NotFound("Aniversariante nao encontrado");
             }
-            return Ok(Aniversariante);
+            return Ok(Aniversariantes);
         }
 
-
+        [HttpGet("ObterPorMes{mes:int}")]
+        public ActionResult<Aniversariantes> Get(int mes)
+        {
+            IEnumerable<Aniversariantes> aniversariantes = _repository.ObterPorMes(mes); 
+            if (aniversariantes == null)
+            {
+                return NotFound("Sem aniversariantes no mes");
+            }
+            return Ok(aniversariantes);
+        }
 
         [HttpPost]
         public ActionResult Post([FromBody] Aniversariantes aniversariantes)
