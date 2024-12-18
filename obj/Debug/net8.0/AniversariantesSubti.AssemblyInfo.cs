@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AniversariantesSubti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd70dcdeced5971d6677339b1baa769639a091e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb43a5748b40120fa3b625b2f2f9a1b8cbc10273")]
 [assembly: System.Reflection.AssemblyProductAttribute("AniversariantesSubti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AniversariantesSubti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

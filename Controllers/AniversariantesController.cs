@@ -35,9 +35,17 @@ namespace AniversariantesSubti.Controllers
             return Ok(Aniversariantes);
         }
 
-        [HttpGet("ObterPorMes{mes:int}")]
-        public ActionResult<Aniversariantes> Get(int mes)
+        [HttpGet("ObterPorMes/{mes:int?}")]
+        //int mesatual = DateTime.Now.Month;
+        //public ActionResult<Aniversariantes> Get(int mes = 01)
+        public ActionResult<Aniversariantes> Get(int mes = 0)
         {
+            if (mes == 0)
+            {
+                mes = DateTime.Now.Month;
+                //mes = 03;
+            }
+
             IEnumerable<Aniversariantes> aniversariantes = _repository.ObterPorMes(mes); 
             if (aniversariantes == null)
             {

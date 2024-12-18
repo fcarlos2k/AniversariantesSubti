@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\aniversariantessubti\\repositories\\aniversariantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|solutionrelative:repositories\\aniversariantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\aniversariantessubti\\controllers\\aniversariantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|solutionrelative:controllers\\aniversariantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\aniversariantessubti\\repositories\\interfaces\\ianiversariantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|solutionrelative:repositories\\interfaces\\ianiversariantesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IAniversariantesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Repositories\\Interfaces\\IAniversariantesRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAniversariantesRepository.cs",
-              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Repositories\\Interfaces\\IAniversariantesRepository.cs",
-              "RelativeToolTip": "Repositories\\Interfaces\\IAniversariantesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T19:17:25.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AniversariantesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Repositories\\AniversariantesRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\AniversariantesRepository.cs",
-              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Repositories\\AniversariantesRepository.cs",
-              "RelativeToolTip": "Repositories\\AniversariantesRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBsAAACFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:35:00.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AniversariantesController.cs",
               "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Controllers\\AniversariantesController.cs",
               "RelativeDocumentMoniker": "Controllers\\AniversariantesController.cs",
               "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Controllers\\AniversariantesController.cs",
               "RelativeToolTip": "Controllers\\AniversariantesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T17:28:46.742Z",
+              "WhenOpened": "2024-12-18T13:17:21.182Z",
               "EditorCaption": ""
             }
           ]
