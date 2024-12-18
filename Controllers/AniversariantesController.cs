@@ -2,6 +2,7 @@
 using AniversariantesSubti.Repositories.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.FeatureManagement.Mvc;
 
 namespace AniversariantesSubti.Controllers
 {
@@ -17,9 +18,9 @@ namespace AniversariantesSubti.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Aniversariantes>> ListarTodosAniversariantes()
+        public ActionResult<IEnumerable<Aniversariantes>> ListarAniversariantesProximo7dias()
         {
-            IEnumerable<Aniversariantes> aniversariantes = _repository.ObterTodos();
+            IEnumerable<Aniversariantes> aniversariantes = _repository.ObterTodosProximo7dias();
 
             return Ok(aniversariantes);
         }
@@ -64,6 +65,7 @@ namespace AniversariantesSubti.Controllers
 
         //[HttpPut]
 
+        [FeatureGate("FeaturePodeExcluir")]
         [HttpDelete("{id:int}")]
         public ActionResult Delete(int id)
         {

@@ -4,7 +4,7 @@ namespace AniversariantesSubti.Repositories.Interfaces;
 
 public interface IAniversariantesRepository
 {
-    IEnumerable<Aniversariantes> ObterTodos();
+    IEnumerable<Aniversariantes> ObterTodosProximo7dias();
     Aniversariantes? ObterPorId(int Id);
     IEnumerable<Aniversariantes> ObterPorNome(string Nome);
     IEnumerable<Aniversariantes> ObterPorMes(int mes);

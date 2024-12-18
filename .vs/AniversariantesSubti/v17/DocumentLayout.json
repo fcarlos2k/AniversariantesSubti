@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|c:\\users\\fabricio.araujo\\documents\\projetos\\aniversariantessubti\\controllers\\aniversariantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30B86CE8-B8DC-4DBC-94E3-8FB0D98CE8C8}|AniversariantesSubti.csproj|solutionrelative:controllers\\aniversariantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AniversariantesController.cs",
-              "DocumentMoniker": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Controllers\\AniversariantesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AniversariantesController.cs",
-              "ToolTip": "C:\\Users\\fabricio.araujo\\Documents\\Projetos\\AniversariantesSubti\\Controllers\\AniversariantesController.cs",
-              "RelativeToolTip": "Controllers\\AniversariantesController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T13:17:21.182Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

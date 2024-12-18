@@ -23,9 +23,11 @@ public class AniversariantesRepository : IAniversariantesRepository
     }
 
 
-    IEnumerable<Aniversariantes> IAniversariantesRepository.ObterTodos()
+    IEnumerable<Aniversariantes> IAniversariantesRepository.ObterTodosProximo7dias()
     {
-        return _aniversariantes.Where(p => p.DataNascimento.Month == DateTime.Now.Month && p.DataNascimento.Day < DateTime.Now.Day + 7);
+        return _aniversariantes.Where(p => p.DataNascimento.Month == DateTime.Now.Month && 
+                                           p.DataNascimento.Day >= DateTime.Now.Day && 
+                                           p.DataNascimento.Day < DateTime.Now.Day + 7);
     }
 
     //public Aniversariantes? ObterPorMes(int mes)
